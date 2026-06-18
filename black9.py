@@ -214,7 +214,7 @@ def openroom(K, V):
             1: 1,
             2: 15,
             3: 5,
-            4: "[B][C][00FFFF]LIMON",          # <-- changed line
+            4: "[B][C][00FFFF]Z!BON",          # <-- changed line
             5: "1",
             6: 12,
             7: 1,
@@ -402,7 +402,7 @@ def Zix1(self, player_id, key, iv):
         4: 50,
         5: {
             1: int(player_id),
-            2: "[00FFFF]LIMON BOT V1",
+            2: "[00FFFF]Z!BON BOT V1",
             3: 1
         }
     }
