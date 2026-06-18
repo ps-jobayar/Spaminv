@@ -373,7 +373,7 @@ HTML_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIMON SPAM - Ultimate Control Panel</title>
+    <title>ZIBON SPAM - Ultimate Control Panel</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
@@ -415,7 +415,7 @@ HTML_TEMPLATE = '''
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="1em" font-size="8" fill="rgba(0,212,255,0.03)">LIMON</text></svg>');
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="1em" font-size="8" fill="rgba(0,212,255,0.03)">ZIBON</text></svg>');
             background-size: 50px 50px;
             pointer-events: none;
             z-index: -1;
@@ -1095,9 +1095,9 @@ HTML_TEMPLATE = '''
         <div class="welcome-modal">
             <button class="welcome-close-btn" onclick="closeWelcomeBanner()"><i class="fa-solid fa-xmark"></i></button>
             <div class="welcome-title">আসসালামু আলাইকুম</div>
-            <div class="welcome-subtitle">WELCOME TO LIMON SPAM</div>
+            <div class="welcome-subtitle">WELCOME TO ZIBON SPAM</div>
             <div class="welcome-text">আপনার ইচ্ছা হলে আমার টেলিগ্রামে জয়েন্ট হতে পারেন।</div>
-            <a href="https://t.me/MUZ4NNNN" target="_blank" class="welcome-btn-join" onclick="closeWelcomeBanner()">
+            <a href="https://t.me/GHOST_XAPIS" target="_blank" class="welcome-btn-join" onclick="closeWelcomeBanner()">
                 <i class="fa-brands fa-telegram"></i> জয়েন্ট নেও
             </a>
             <button class="welcome-btn-dismiss" onclick="closeWelcomeBanner()">OK</button>
@@ -1109,7 +1109,7 @@ HTML_TEMPLATE = '''
     <div id="home-page" class="app-container">
         <header class="header">
             <div class="premium-badge"><i class="fa-solid fa-crown"></i> PREMIUM UNLIMITED</div>
-            <h1 class="main-title">LIMON<br>SPAM</h1>
+            <h1 class="main-title">ZIBON<br>SPAM</h1>
             <div class="sub-title"><i class="fa-solid fa-skull"></i> SPAM SYSTEM <i class="fa-solid fa-bolt"></i></div>
             <i class="fa-solid fa-skull skull-icon"></i>
         </header>
@@ -1161,7 +1161,7 @@ HTML_TEMPLATE = '''
                 </div>
             </div>
             <div class="console-box" id="consoleBox">
-                <div class="console-line"><span class="time">[System]</span> <span class="info">LIMON SPAM SYSTEM LOADED</span></div>
+                <div class="console-line"><span class="time">[System]</span> <span class="info">ZIBON SPAM SYSTEM LOADED</span></div>
                 <div class="console-line"><span class="time">[System]</span> <span class="success">Ready for attack!</span></div>
             </div>
             
@@ -1213,7 +1213,7 @@ HTML_TEMPLATE = '''
         </div>
 
         <div class="copyright">
-            <i class="fa-solid fa-skull"></i> LIMON POWER SPAM v3.0 | Premium Unlimited Access <i class="fa-solid fa-bolt"></i>
+            <i class="fa-solid fa-skull"></i> ZIBON POWER SPAM v3.0 | Premium Unlimited Access <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
 
@@ -1233,7 +1233,7 @@ HTML_TEMPLATE = '''
         const ctx = canvas.getContext('2d');
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
-        const matrixChars = '01LIMO@#&%ABC26252LIMON'.split('');
+        const matrixChars = '01LIMO@#&%ABC26252ZIBON'.split('');
         const fontSize = 14;
         const columns = canvas.width / fontSize;
         const drops = Array(Math.floor(columns)).fill(1);
@@ -1601,7 +1601,7 @@ HTML_TEMPLATE = '''
             }
         });
         
-        logToConsole('💀 LIMON POWER SPAM SYSTEM READY', 'success');
+        logToConsole('💀 ZIBON POWER SPAM SYSTEM READY', 'success');
         logToConsole('📡 Auto-refresh: 7 minutes | Max 20 UIDs | Unlimited Mode', 'info');
         logToConsole('🎯 Multiple UIDs supported - Add up to 20 targets', 'info');
         logToConsole('⚡ Spam gap: 1 second (Super Fast Mode)', 'info');
@@ -1916,7 +1916,7 @@ def main():
     print(f"""
     {C}{BOLD}
     ╔══════════════════════════════════════════════════════════════════╗
-    ║                    🎯 LIMON POWER SPAM SYSTEM 🎯                 ║
+    ║                    🎯 ZIBON POWER SPAM SYSTEM 🎯                 ║
     ║                                                                  ║
     ║     ✅ UNLIMITED SPAM MODE - FULLY AUTOMATED                     ║
     ║     ✅ DARK THEME UI WITH REAL-TIME CONSOLE                      ║
@@ -1929,7 +1929,7 @@ def main():
     ║     ✅ REAL-TIME BATTERY STATUS WITH LIGHTNING ICON             ║
     ║                                                                  ║
     ║     🌐 Web Panel: http://127.0.0.1:{port}                        ║
-    ║     👑 Developer: LIMON CODEX                                    ║
+    ║     👑 Developer: ZIBON CODEX                                    ║
     ║     💀 STATUS: SYSTEM ACTIVE                                     ║
     ╚══════════════════════════════════════════════════════════════════╝
     {RS}
